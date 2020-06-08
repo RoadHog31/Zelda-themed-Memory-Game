@@ -1,0 +1,62 @@
+.container{
+    
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-gap: 1rem;
+}
+
+@font-face{
+    
+    font-family: "myZeldaFont";
+    src: url(../fonts/HylianSymbols.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */;
+}
+
+@font-face{
+    
+    font-family: "myGoogleFonts";
+/*    src: url(https://fonts.googleapis.com/css2);*/
+/*    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*/
+}
+
+body {
+
+    background: url('../img/leaves.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'myZeldaFont';
+
+}
+
+h2{
+    
+    font-family: "myGoogleFonts";
+}
+
+.item {
+
+    background-color: greenyellow;
+    border: 6px solid rgb(115, 115, 115);
+    border-radius: 10px;
+    background-image: radial-gradient(#00BFFF, #1E90FF); 
+    display: flex;
+    text-align: center;    
+
+}
+
+h1{
+    
+    font-size: 100px;
+    font-weight: 100;    
+    display: inline-block;    
+    padding: 5px;
+    margin:  auto;  
+    
+}
+
+h1 * {
+    
+   
+}
+

@@ -12,12 +12,7 @@
     src: url(../fonts/HylianSymbols.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */;
 }
 
-@font-face{
-    
-    font-family: "myGoogleFonts";
-  /* src: url(https://fonts.googleapis.com/css2);
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
-}
+
 
 body {
 

@@ -3,7 +3,7 @@
     display:grid;
     grid-template-columns: 150px 150px 150px 150px;
     grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
-    grid-gap: 1rem;
+    gap: 1rem;
 }
 
 @font-face{
@@ -15,8 +15,8 @@
 @font-face{
     
     font-family: "myGoogleFonts";
-/*    src: url(https://fonts.googleapis.com/css2);*/
-/*    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*/
+  /* src: url(https://fonts.googleapis.com/css2);
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
 }
 
 body {

@@ -26,7 +26,19 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'myZeldaFont';
+    background-size: 25%;
+    /* background-image: blur; */   
 
+}
+
+.filter-me {
+
+    
+    /* filter: grayscale(1); */
+    /* filter: saturate(2.2); */
+    /* filter: blur(3px); */
+    /* filter: none; */
+    /* remove existing filter */
 }
 
 h2{
@@ -55,8 +67,5 @@ h1{
     
 }
 
-h1 * {
-    
-   
-}
+
 
